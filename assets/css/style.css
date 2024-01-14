@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #34bcfc;
   color: #fff;
 }
 
@@ -312,7 +312,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #ebf3ff;
 }
 
 .section-title {
@@ -334,7 +334,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #000;
   bottom: 0;
   left: 0;
 }
@@ -430,7 +430,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -464,6 +464,26 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed to control spacing between icons */
+  align-items: center; /* Align icons vertically in the center */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.icon {
+  width: 70px; /* Adjust the width of the icon container */
+  height: 70px; /* Adjust the height of the icon container */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.icon img {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  border-radius: 20%; /* Add border-radius for rounded icons (adjust as needed) */
 }
 
 /*--------------------------------------------------------------
