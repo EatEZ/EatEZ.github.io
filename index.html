@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
+  <title>Abe Pasion Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -216,9 +216,40 @@
 
             <h3 class="resume-title">Downloadable Links</h3>
             <div class="resume-item pb-0">
-              <p>Download Resume</p>
-              <p>doc</p>
-              <p>PDF</p>
+              <h4>Download Resume</h4>
+
+              <script>
+                function downloadDocx() {
+                    var pdfUrl = 'assets/img/Abe_Pasion_Resume_Docx.docx';
+                    var link = document.createElement('a');
+                    link.href = pdfUrl;
+                    link.target = '_blank';
+                    link.download = "Abe_Pasion_Resume";
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            </script>
+            
+            <div class="text-center" style="margin-top: 40px;">
+                <button type="button" class="download" onclick="downloadDocx()">Download DOCX</button>
+            </div>            
+             
+              <script>
+                function downloadPdf(pdfUrl) {
+                  var link = document.createElement('a');
+                  link.href = pdfUrl;
+                  link.target = '_blank';
+                  link.download = "Abe_Pasion_Resume";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }
+              </script>
+
+              <div class="text-center" style="margin-top: 20px;">
+                <button type="button" class="download" onclick="downloadPdf('assets/img/Abe_Pasion_Resume.pdf')">Download PDF</button>
+              </div>                      
             </div>
 
           </div>
