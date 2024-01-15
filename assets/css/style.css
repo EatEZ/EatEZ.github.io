@@ -486,6 +486,14 @@ section {
   border-radius: 20%; /* Add border-radius for rounded icons (adjust as needed) */
 }
 
+.catPhoto {
+  width: 85%;
+  height: 80%;
+  align-items: center;
+  border-radius: 20%;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
