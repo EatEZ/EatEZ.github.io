@@ -608,6 +608,8 @@ section {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
+  border-style: solid;
+  border-radius: 5%;
   z-index: 1;
 }
 
