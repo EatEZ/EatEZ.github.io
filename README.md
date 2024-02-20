@@ -1,1 +1,1 @@
-# EzEatsRecipeBook.github.io
+# EatEZRecipeBook.github.io
